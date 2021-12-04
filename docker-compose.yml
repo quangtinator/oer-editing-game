@@ -17,7 +17,7 @@ services:
       - KEYCLOAK_USER=well
       - KEYCLOAK_PASSWORD=whale
       - KEYCLOAK_IMPORT=/tmp/realm-export.json
-      - KEYCLOAK_FRONTEND_URL=http://license-game.cf/keycloak
+      - KEYCLOAK_FRONTEND_URL=http://20.79.205.170/keycloak
     volumes:
       - ./realm-export.json:/tmp/realm-export.json
 
